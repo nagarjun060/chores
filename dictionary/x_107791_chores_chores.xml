@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="chores" max_length="40" name="x_107791_chores_chores" type="collection">
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="dishes" sequence="1" value="dishes"/>
+                <element label="iron" sequence="2" value="iron"/>
+                <element label="food" sequence="3" value="food"/>
+                <element label="clean" sequence="4" value="clean"/>
+            </choice>
+        </element>
+    </element>
+</database>
