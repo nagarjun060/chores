@@ -9,5 +9,6 @@
                 <element label="clean" sequence="4" value="clean"/>
             </choice>
         </element>
+        <element label="test" max_length="40" name="test" type="string"/>
     </element>
 </database>
